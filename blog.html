@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PH Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <h1 class="mt-4 md:mt-20 mb-2 text-center text-4xl font-bold">FAQ</h1>
+    <hr>
+    <section>
+        <div class="px-2 mb-4 md:px-32 mt-20">
+            <div tabindex="0" class="collapse collapse-arrow border border-base-300 bg-base-200">
+                <div class="collapse-title text-xl font-medium">
+                    Discuss the scope of var, let, and const
+                </div>
+                <div class="collapse-content">
+                    <p>
+                        <li>var: Variables declared with var have function scope. This is the default scope
+                            in JavaScript.</li>
+                        <li>let: Variables declared with let have block scope.</li>
+                        <li>const: Variables declared with const have block scope and cannot be reassigned.</li>
+                    </p>
+                </div>
+            </div>
+            <br>
+            <div tabindex="0" class="collapse collapse-arrow border border-base-300 bg-base-200">
+                <div class="collapse-title text-xl font-medium">
+                    Tell us the use cases of null and undefined
+                </div>
+                <div class="collapse-content">
+                    <p>
+                        <li>To represent an empty value. For example, you could use the null value to
+                            represent an empty string or an empty array.</li>
+                        <li> To indicate that a value is not available. For example, you could use the undefined value
+                            to
+                            indicate that a variable has not been initialized yet.</li>
+                        <li> To check for the absence of a value. You can use the === operator to check if a variable is
+                            equal to null or undefined.</li>
+                </div>
+            </div>
+            <br>
+            <div tabindex="0" class="collapse collapse-arrow border border-base-300 bg-base-200">
+                <div class="collapse-title text-xl font-medium">
+                    What do you mean by REST API?
+                </div>
+                <div class="collapse-content">
+                    <p>
+                        <li>Resource identification: Each resource in a REST API is identified by a unique
+                            URI.</li>
+                        <li> Resource manipulation: Resources can be manipulated using four HTTP methods: GET, POST,
+                            PUT, and
+                            DELETE.</li>
+                        <li> Self-descriptive messages: The meaning of each message is conveyed by the URI and the HTTP
+                            method used.</li>
+                        <li> Uniform interface: All resources are accessed using the same uniform interface.</li>
+                        <li> Stateless: The client and the server should not maintain any state between requests.</li>
+                        REST APIs are often used to access data from web services. They are also used to build complex
+                        applications that can interact with each other. <br>
+
+                        Here are some examples of REST APIs:
+
+                        <li> The GitHub API allows you to access information about GitHub repositories, users, and
+                            organizations.</li>
+                        <li> The Google Maps API allows you to retrieve maps, directions, and other location-based
+                            information.</li>
+                        <li>The Stripe API allows you to process payments and manage customer accounts.</li>
+                        REST APIs are a popular choice for building APIs because they are simple to understand and
+                        implement. They are also scalable and efficient, making them well-suited for large-scale
+                        applications.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="flex justify-center mt-10">
+        <a href="index.html"> <button class="py-3 px-5 bg-[#FF1F3D] text-[#fff] font-bold rounded-md">Go Home</button></a>
+    </div>
+</body>
+
+</html>
